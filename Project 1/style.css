@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    background-image: linear-gradient(50deg, lightpink 40%,lightblue 60%);
+}
+#head01{
+    width:17%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#head01 img{
+    border-radius: 60%;
+}
+header div h1{
+    margin-top: 0.6rem;
+    color:white;
+    margin-left: 0.5rem;
+}
+
+header{
+    height: 60px;
+    display: flex;
+    background-image: linear-gradient(50deg,rgb(239, 153, 96)0%, rgb(63, 63, 67)60%);
+
+    justify-content: space-between;
+}
+
+#head02{
+    width:25%;
+    margin-top: 1.3rem;
+    margin-right: 2.5rem ;
+    display: flex;
+    justify-content: space-between;
+}
+#head02 a{
+    text-decoration: none;
+    color: white;
+}
+#header a{
+    text-decoration: none;
+    color: white;
+    border: solid 2px white;
+    padding: 5px;
+    border: solid 2px 
+}
+#head02 a:hover{
+    color:green;
+    transition: 0.5s;
+}
+#head03 a:hover{
+  background-color:purple;
+  transition: 0.5s;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin-left: 9.5rem;
+    margin-right: 9.5rem;
+    margin-top: 5rem;
+}
+.images{
+    border: solid 2px black;
+    border-radius: 6px 6px 6px;
+}
+.images:hover{
+    box-shadow: 6px 6px 6px;
+    transition: 1s;
+}
+footer{
+    margin-top:30px ;
+    background-color: black;
+    height: 150px;
+}
+#foot01{
+    padding-left:20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: absolute; */
+    margin-bottom: -50px;
+}
+.footer-content{
+    color:white;
+    gap: 10px;
+}
+#social{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
