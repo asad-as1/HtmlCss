@@ -1,13 +1,16 @@
 body{
     margin: 0px;
     padding: 0px;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
     background-image: linear-gradient(50deg, lightpink 40%,lightblue 60%);
 }
+.container {
+    height: 800px;
+}
+
 #head01{
     width:17%;
     display: flex;
@@ -76,14 +79,13 @@ section{
 footer{
     margin-top:30px ;
     background-color: black;
-    height: 150px;
+    height: 119px;
 }
 #foot01{
     padding-left:20px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: absolute; */
     margin-bottom: -50px;
 }
 .footer-content{
@@ -94,4 +96,9 @@ footer{
     width: 50%;
     display: flex;
     justify-content: space-evenly;
+}
+
+#foot01 img {
+    border-radius: 4px;
+    height: 70px;
 }
